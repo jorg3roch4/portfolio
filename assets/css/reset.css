@@ -1,0 +1,297 @@
+﻿* {
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+    * :focus {
+        outline: none !important;
+    }
+
+*,
+::before,
+::after {
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    tab-size: 4;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body {
+    font-feature-settings: "salt";
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+    border-top-width: 1px;
+    color: inherit;
+    height: 0;
+}
+
+abbr:where([title]) {
+    text-decoration: underline dotted;
+}
+
+h1, .h1 {
+    font-size: 2.125rem;
+    letter-spacing: -0.0625rem;
+    line-height: 1;
+}
+
+h2, .h2 {
+    font-size: 1.875rem;
+    letter-spacing: -0.05rem;
+    line-height: 1.067;
+}
+
+h3, .h3 {
+    font-size: 1.5rem;
+    letter-spacing: -0.0375rem;
+    line-height: 1.083;
+}
+
+h4, .h4 {
+    font-size: 1.25rem;
+    letter-spacing: -0.025rem;
+    line-height: 1.1;
+}
+
+h5, .h5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.0125rem;
+    line-height: 1.111;
+}
+
+h6, .h6 {
+    font-size: 1rem;
+    letter-spacing: -0.00625rem;
+    line-height: 1.125;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+    a[role=button] {
+        text-decoration: none;
+    }
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+    margin: 0;
+}
+
+code,
+kbd,
+samp,
+pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1em;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    padding: 0;
+}
+
+summary {
+    display: list-item;
+}
+
+form label {
+    z-index: 99;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: button;
+}
+
+    button:focus {
+        outline: none;
+    }
+
+button,
+[role="button"] {
+    cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(62.35%, 62.35%, 62.35%);
+    opacity: 1;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+    border: 1px solid rgb(45.88%, 76.86%, 96.08%);
+    transition: background-color 5000s ease-in-out 0s;
+    transition: color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: rgb(45.88%, 76.86%, 96.08%);
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+}
+
+table {
+    border-color: inherit;
+    border-collapse: collapse;
+    text-indent: 0;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    vertical-align: middle;
+}
+
+img,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+ol,
+ul,
+menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+}
+
+textarea {
+    resize: vertical;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+[type='search'] {
+    outline-offset: -2px;
+    -webkit-appearance: textfield;
+}
+
+:disabled {
+    cursor: default;
+}
+
+[hidden] {
+    display: none;
+}
+
+[role="tooltip"] {
+    z-index: 9999;
+}
+
+:-moz-focusring {
+    outline: auto;
+}
+
+:-moz-ui-invalid {
+    box-shadow: none;
+}
